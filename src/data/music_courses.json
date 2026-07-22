@@ -1,0 +1,506 @@
+{
+
+  "courses": [ 
+  {
+    
+    "id": 1,
+    "title": "Beginner Piano Essentials",
+    "slug": "beginner-piano-essentials",
+    "description": "Learn piano basics including scales, chords, and simple songs.",
+    "price": 129.99,
+    "instructor": "Emma Wilson",
+    "isFeatured": true,
+    "image": "https://img.icons8.com/fluency/512/piano.png"
+  },
+  {
+    "id": 2,
+    "title": "Advanced Piano Mastery",
+    "slug": "advanced-piano-mastery",
+    "description": "Master advanced piano techniques and performance skills.",
+    "price": 199.99,
+    "instructor": "Daniel Smith",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/piano.png"
+  },
+  {
+    "id": 3,
+    "title": "Acoustic Guitar Basics",
+    "slug": "acoustic-guitar-basics",
+    "description": "Learn chords, strumming, and beginner guitar songs.",
+    "price": 119.99,
+    "instructor": "Alex Carter",
+    "isFeatured": true,
+    "image": "https://img.icons8.com/fluency/512/guitar.png"
+  },
+  {
+    "id": 4,
+    "title": "Electric Guitar Soloing",
+    "slug": "electric-guitar-soloing",
+    "description": "Build soloing skills with scales and improvisation.",
+    "price": 149.99,
+    "instructor": "Ryan Blake",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/guitar.png"
+  },
+  {
+    "id": 5,
+    "title": "Blues Guitar Techniques",
+    "slug": "blues-guitar-techniques",
+    "description": "Develop expressive blues phrasing and licks.",
+    "price": 189.99,
+    "instructor": "Ethan Moore",
+    "isFeatured": true,
+    "image": "https://img.icons8.com/fluency/512/guitar.png"
+  },
+  {
+    "id": 6,
+    "title": "Classical Guitar Masterclass",
+    "slug": "classical-guitar-masterclass",
+    "description": "Explore fingerstyle and classical repertoire.",
+    "price": 159.99,
+    "instructor": "Sophia Reed",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/guitar.png"
+  },
+  {
+    "id": 7,
+    "title": "Violin for Beginners",
+    "slug": "violin-for-beginners",
+    "description": "Learn violin posture, bowing, and melodies.",
+    "price": 134.99,
+    "instructor": "Olivia Brown",
+    "isFeatured": true,
+    "image": "https://img.icons8.com/fluency/512/violin.png"
+  },
+  {
+    "id": 8,
+    "title": "Advanced Violin Performance",
+    "slug": "advanced-violin-performance",
+    "description": "Improve advanced violin performance skills.",
+    "price": 214.99,
+    "instructor": "Lucas Green",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/violin.png"
+  },
+  {
+    "id": 9,
+    "title": "Classical Music Appreciation",
+    "slug": "classical-music-appreciation",
+    "description": "Understand famous composers and masterpieces.",
+    "price": 99.99,
+    "instructor": "Isabella White",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/musical-notes.png"
+  },
+  {
+    "id": 10,
+    "title": "Music Theory Fundamentals",
+    "slug": "music-theory-fundamentals",
+    "description": "Learn notes, scales, intervals, and harmony.",
+    "price": 109.99,
+    "instructor": "Michael Stone",
+    "isFeatured": true,
+    "image": "https://img.icons8.com/fluency/512/musical-notes.png"
+  },
+  {
+    "id": 11,
+    "title": "Songwriting Essentials",
+    "slug": "songwriting-essentials",
+    "description": "Write compelling lyrics and melodies.",
+    "price": 139.99,
+    "instructor": "Grace Hill",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/musical-notes.png"
+  },
+  {
+    "id": 12,
+    "title": "Vocal Training Basics",
+    "slug": "vocal-training-basics",
+    "description": "Improve pitch, breathing, and vocal range.",
+    "price": 129.99,
+    "instructor": "Hannah Scott",
+    "isFeatured": true,
+    "image": "https://img.icons8.com/fluency/512/microphone.png"
+  },
+  {
+    "id": 13,
+    "title": "Advanced Singing Techniques",
+    "slug": "advanced-singing-techniques",
+    "description": "Master advanced vocal techniques and control.",
+    "price": 179.99,
+    "instructor": "Noah Clark",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/microphone.png"
+  },
+  {
+    "id": 14,
+    "title": "Drumming Foundations",
+    "slug": "drumming-foundations",
+    "description": "Learn rhythm and drum kit basics.",
+    "price": 144.99,
+    "instructor": "Jack Harris",
+    "isFeatured": true,
+    "image": "https://img.icons8.com/fluency/512/drum-set.png"
+  },
+  {
+    "id": 15,
+    "title": "Jazz Drumming",
+    "slug": "jazz-drumming",
+    "description": "Master swing rhythms and jazz grooves.",
+    "price": 174.99,
+    "instructor": "Leo Martin",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/drum-set.png"
+  },
+  {
+    "id": 16,
+    "title": "Bass Guitar Basics",
+    "slug": "bass-guitar-basics",
+    "description": "Build groove and timing with bass guitar.",
+    "price": 119.99,
+    "instructor": "Eli Adams",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/guitar-amp.png"
+  },
+  {
+    "id": 17,
+    "title": "Funk Bass Grooves",
+    "slug": "funk-bass-grooves",
+    "description": "Learn slap bass and funk grooves.",
+    "price": 149.99,
+    "instructor": "Nathan Hall",
+    "isFeatured": true,
+    "image": "https://img.icons8.com/fluency/512/guitar-amp.png"
+  }, 
+    {
+    "id": 18,
+    "title": "Ukulele for Beginners",
+    "slug": "ukulele-for-beginners",
+    "description": "Play fun songs with easy chords.",
+    "price": 89.99,
+    "instructor": "Lily King",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/guitar.png"
+  },
+  {
+    "id": 19,
+    "title": "DJ Mixing Basics",
+    "slug": "dj-mixing-basics",
+    "description": "Learn beatmatching and mixing techniques.",
+    "price": 199.99,
+    "instructor": "Mason Reed",
+    "isFeatured": true,
+    "image": "https://img.icons8.com/fluency/512/dj.png"
+  },
+  {
+    "id": 20,
+    "title": "Electronic Music Production",
+    "slug": "electronic-music-production",
+    "description": "Create electronic tracks from scratch.",
+    "price": 229.99,
+    "instructor": "Aiden Brooks",
+    "isFeatured": true,
+    "image": "https://img.icons8.com/fluency/512/audio-wave.png"
+  },
+  {
+    "id": 21,
+    "title": "Music Production with FL Studio",
+    "slug": "music-production-fl-studio",
+    "description": "Produce professional beats using FL Studio.",
+    "price": 189.99,
+    "instructor": "Owen Taylor",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/audio-wave.png"
+  },
+  {
+    "id": 22,
+    "title": "Ableton Live Essentials",
+    "slug": "ableton-live-essentials",
+    "description": "Learn music production in Ableton Live.",
+    "price": 209.99,
+    "instructor": "Mia Evans",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/audio-wave.png"
+  },
+  {
+    "id": 23,
+    "title": "Sound Design Basics",
+    "slug": "sound-design-basics",
+    "description": "Understand synthesis and sound shaping.",
+    "price": 159.99,
+    "instructor": "Logan Ward",
+    "isFeatured": true,
+    "image": "https://img.icons8.com/fluency/512/audio-wave.png"
+  },
+  {
+    "id": 24,
+    "title": "Recording Studio Setup",
+    "slug": "recording-studio-setup",
+    "description": "Build a home recording studio.",
+    "price": 119.99,
+    "instructor": "Elijah Ross",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/audio-wave.png"
+  },
+  {
+    "id": 25,
+    "title": "Audio Mixing Fundamentals",
+    "slug": "audio-mixing-fundamentals",
+    "description": "Learn EQ, compression, and mixing.",
+    "price": 169.99,
+    "instructor": "Ella Young",
+    "isFeatured": true,
+    "image": "https://img.icons8.com/fluency/512/audio-wave.png"
+  },
+  {
+    "id": 26,
+    "title": "Mastering Audio Mastering",
+    "slug": "mastering-audio-mastering",
+    "description": "Learn final mastering techniques for professional tracks.",
+    "price": 179.99,
+    "instructor": "Benjamin Lee",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/audio-wave.png"
+  },
+  {
+    "id": 27,
+    "title": "Film Scoring Basics",
+    "slug": "film-scoring-basics",
+    "description": "Compose emotional music for films and visuals.",
+    "price": 199.99,
+    "instructor": "Chloe Walker",
+    "isFeatured": true,
+    "image": "https://img.icons8.com/fluency/512/musical-notes.png"
+  },
+  {
+    "id": 28,
+    "title": "Orchestration Essentials",
+    "slug": "orchestration-essentials",
+    "description": "Learn arranging music for orchestral instruments.",
+    "price": 189.99,
+    "instructor": "Samuel Turner",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/musical-notes.png"
+  },
+  {
+    "id": 29,
+    "title": "Saxophone for Beginners",
+    "slug": "saxophone-for-beginners",
+    "description": "Start playing saxophone with breathing and tone control.",
+    "price": 149.99,
+    "instructor": "David Allen",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/musical-notes.png"
+  },
+  {
+    "id": 30,
+    "title": "Jazz Improvisation",
+    "slug": "jazz-improvisation",
+    "description": "Master jazz improvisation and melodic creativity.",
+    "price": 219.99,
+    "instructor": "Sophia Morgan",
+    "isFeatured": true,
+    "image": "https://img.icons8.com/fluency/512/musical-notes.png"
+  },
+  {
+    "id": 31,
+    "title": "Trumpet Fundamentals",
+    "slug": "trumpet-fundamentals",
+    "description": "Learn trumpet embouchure, tone, and exercises.",
+    "price": 139.99,
+    "instructor": "Henry Cooper",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/trumpet.png"
+  },
+  {
+    "id": 32,
+    "title": "Flute Essentials",
+    "slug": "flute-essentials",
+    "description": "Learn flute posture, fingering, and melodies.",
+    "price": 129.99,
+    "instructor": "Amelia Brooks",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/flute.png"
+  },
+  {
+    "id": 33,
+    "title": "Cello for Beginners",
+    "slug": "cello-for-beginners",
+    "description": "Learn cello basics and foundational techniques.",
+    "price": 159.99,
+    "instructor": "Jack Turner",
+    "isFeatured": true,
+    "image": "https://img.icons8.com/fluency/512/cello.png"
+  },
+  {
+    "id": 34,
+    "title": "Music Composition Basics",
+    "slug": "music-composition-basics",
+    "description": "Write original melodies and harmonies with confidence.",
+    "price": 149.99,
+    "instructor": "Emily Parker",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/musical-notes.png"
+  }, 
+    {
+    "id": 35,
+    "title": "Choir Conducting",
+    "slug": "choir-conducting",
+    "description": "Learn conducting gestures and choir leadership.",
+    "price": 169.99,
+    "instructor": "Matthew Hill",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/musical-notes.png"
+  },
+  {
+    "id": 36,
+    "title": "Percussion Techniques",
+    "slug": "percussion-techniques",
+    "description": "Master rhythm and percussion instrument skills.",
+    "price": 144.99,
+    "instructor": "Luke Howard",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/drum-set.png"
+  },
+  {
+    "id": 37,
+    "title": "Music Business Essentials",
+    "slug": "music-business-essentials",
+    "description": "Understand royalties, licensing, and music marketing.",
+    "price": 179.99,
+    "instructor": "Harper Lewis",
+    "isFeatured": true,
+    "image": "https://img.icons8.com/fluency/512/musical-notes.png"
+  },
+  {
+    "id": 38,
+    "title": "Live Performance Skills",
+    "slug": "live-performance-skills",
+    "description": "Improve stage confidence and audience connection.",
+    "price": 139.99,
+    "instructor": "Evelyn Carter",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/microphone.png"
+  },
+  {
+    "id": 39,
+    "title": "Music Marketing",
+    "slug": "music-marketing",
+    "description": "Promote your music using digital platforms.",
+    "price": 159.99,
+    "instructor": "William Scott",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/musical-notes.png"
+  },
+  {
+    "id": 40,
+    "title": "Lo-Fi Beat Production",
+    "slug": "lofi-beat-production",
+    "description": "Create relaxing lo-fi beats and textures.",
+    "price": 169.99,
+    "instructor": "Sebastian Gray",
+    "isFeatured": true,
+    "image": "https://img.icons8.com/fluency/512/audio-wave.png"
+  },
+  {
+    "id": 41,
+    "title": "Hip Hop Beat Making",
+    "slug": "hip-hop-beat-making",
+    "description": "Produce modern hip hop beats from scratch.",
+    "price": 189.99,
+    "instructor": "Isaac Bennett",
+    "isFeatured": true,
+    "image": "https://img.icons8.com/fluency/512/audio-wave.png"
+  },
+  {
+    "id": 42,
+    "title": "Trap Music Production",
+    "slug": "trap-music-production",
+    "description": "Build hard-hitting trap drums and melodies.",
+    "price": 194.99,
+    "instructor": "Gabriel Foster",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/audio-wave.png"
+  },
+  {
+    "id": 43,
+    "title": "Keyboard Performance",
+    "slug": "keyboard-performance",
+    "description": "Learn live keyboard playing techniques.",
+    "price": 149.99,
+    "instructor": "Avery Mitchell",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/piano.png"
+  },
+  {
+    "id": 44,
+    "title": "Fingerstyle Guitar",
+    "slug": "fingerstyle-guitar",
+    "description": "Play melodic fingerstyle arrangements beautifully.",
+    "price": 169.99,
+    "instructor": "Julian Reed",
+    "isFeatured": true,
+    "image": "https://img.icons8.com/fluency/512/guitar.png"
+  },
+  {
+    "id": 45,
+    "title": "Music Ear Training",
+    "slug": "music-ear-training",
+    "description": "Train your ears to recognize pitch and intervals.",
+    "price": 119.99,
+    "instructor": "Scarlett Moore",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/musical-notes.png"
+  },
+  {
+    "id": 46,
+    "title": "Harmony and Chord Progressions",
+    "slug": "harmony-and-chord-progressions",
+    "description": "Understand harmony and beautiful chord movement.",
+    "price": 149.99,
+    "instructor": "Joseph Adams",
+    "isFeatured": true,
+    "image": "https://img.icons8.com/fluency/512/musical-notes.png"
+  },
+  {
+    "id": 47,
+    "title": "MIDI Programming",
+    "slug": "midi-programming",
+    "description": "Use MIDI tools for efficient music production.",
+    "price": 159.99,
+    "instructor": "Zoey Richardson",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/audio-wave.png"
+  },
+  {
+    "id": 48,
+    "title": "Podcast Audio Editing",
+    "slug": "podcast-audio-editing",
+    "description": "Edit and enhance podcast recordings professionally.",
+    "price": 139.99,
+    "instructor": "Nathan Kelly",
+    "isFeatured": false,
+    "image": "https://img.icons8.com/fluency/512/audio-wave.png"
+  },
+  {
+    "id": 49,
+    "title": "Advanced Music Production",
+    "slug": "advanced-music-production",
+    "description": "Professional workflows for advanced producers.",
+    "price": 249.99,
+    "instructor": "Victoria Ross",
+    "isFeatured": true,
+    "image": "https://img.icons8.com/fluency/512/audio-wave.png"
+  },
+  {
+    "id": 50,
+    "title": "Complete Music Career Masterclass",
+    "slug": "complete-music-career-masterclass",
+    "description": "Build a successful long-term career in music.",
+    "price": 299.99,
+    "instructor": "Christopher Young",
+    "isFeatured": true,
+    "image": "https://img.icons8.com/fluency/512/musical-notes.png"
+  }
+]
+}
