@@ -11,8 +11,9 @@ import {
 } from "motion/react";
 
 const SPRING_CONFIG = {
-  stiffness: 100,
-  damping: 15,
+  stiffness: 68,
+  damping: 18,
+  mass: 0.9,
 };
 
 type AnimatedTooltipItem = {
@@ -104,8 +105,8 @@ export const AnimatedTooltip = ({
                   scale: 1,
                   transition: {
                     type: "spring",
-                    stiffness: 260,
-                    damping: 10,
+                    stiffness: 180,
+                    damping: 16,
                   },
                 }}
                 exit={{
@@ -143,7 +144,7 @@ export const AnimatedTooltip = ({
   unoptimized
   onMouseMove={handleMouseMove}
   draggable={false}
-  className="relative m-0! h-14 w-14 rounded-full border-2 border-white bg-white object-contain object-center !p-1 transition duration-500 group-hover:z-30 group-hover:scale-105"
+  className="relative m-0! h-14 w-14 rounded-full border-2 border-white bg-black object-cover object-center !p-0 transition duration-500 group-hover:z-30 group-hover:scale-105"
 />
         </div>
       ))}
